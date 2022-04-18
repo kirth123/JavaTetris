@@ -1,1 +1,1 @@
-# JavaTetris
+# Tetris
