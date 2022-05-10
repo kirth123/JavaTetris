@@ -12,7 +12,11 @@ Controls:
 
 - Down arrow key: move tetris block down
 
-- Spacebar: Causes tetris block to fall to the bottom of the screen.
+- Spacebar: Causes tetris block to fall to the top of the tile heap or bottom of screen
+
+-
 
 I created the pause and play icons myself, but I borrowed the refresh icon from https://icons8.com. 
+
+You can pause the game at any time and restart it when you want.
 
