@@ -20,3 +20,4 @@ I created the pause and play icons myself, but I borrowed the refresh icon from 
 
 You can pause the game at any time and restart it when you want.
 
+<img width="629" alt="Screenshot 2022-05-10 110150" src="https://user-images.githubusercontent.com/88990184/167693217-8adee4fe-f0c7-4ffc-b37d-ef02b1bcd191.png">
