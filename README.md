@@ -14,7 +14,7 @@ Controls:
 
 - Spacebar: Causes tetris block to fall to the top of the tile heap or bottom of screen
 
--
+
 
 I created the pause and play icons myself, but I borrowed the refresh icon from https://icons8.com. 
 
