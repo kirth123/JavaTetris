@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.reddy.tetris.LayoutController">
+   <children>
+      <HBox fx:id="overview" prefHeight="625.0" prefWidth="750.0">
+         <children>
+            <Pane fx:id="tetrisGrid" prefHeight="200.0" prefWidth="500.0" HBox.hgrow="SOMETIMES">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <children>
+                  <Pane fx:id="endGame" layoutX="48.0" layoutY="107.0" opacity="0.0" prefHeight="389.0" prefWidth="418.0">
+                     <children>
+                        <Text fill="#e12f2f" layoutX="84.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over" wrappingWidth="250.0">
+                           <font>
+                              <Font name="Bell MT Bold" size="48.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="scoreboard" prefHeight="200.0" prefWidth="250.0" stylesheets="@style.css" HBox.hgrow="SOMETIMES">
+               <children>
+                  <VBox fx:id="key" layoutX="9.0" layoutY="114.0" prefHeight="305.0" prefWidth="223.0" spacing="75.0">
+                     <children>
+                        <Text fx:id="score" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" wrappingWidth="220.205078125" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Bell MT" size="30.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lines" strokeType="OUTSIDE" strokeWidth="0.0" text="Lines:" wrappingWidth="222.205078125">
+                           <font>
+                              <Font name="Bell MT" size="30.0" />
+                           </font>
+                        </Text>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fx:id="pauseIcon" fitHeight="60.0" fitWidth="60.0" onMouseClicked="#stopGame" pickOnBounds="true" preserveRatio="true">
+                                 <viewport>
+                                    <Rectangle2D />
+                                 </viewport>
+                                 <image>
+                                    <Image url="@images/pause.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="25.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fx:id="refreshIcon" fitHeight="60.0" fitWidth="60.0" onMouseClicked="#restart" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/refresh.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                        </HBox> 
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
