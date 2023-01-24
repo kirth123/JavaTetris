@@ -1,6 +1,6 @@
 # JavaTetris
 
-I developed a tetris game using the JavaFX library. 
+I developed a tetris game using the JavaFX framework. 
 
 Controls:
 
