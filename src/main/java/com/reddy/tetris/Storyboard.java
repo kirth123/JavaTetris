@@ -60,6 +60,7 @@ public class Storyboard extends Application {
                 }
             });
 
+            stage.getIcons().add(new Image(getClass().getResourceAsStream("images/icon.png")));
             stage.setScene(scene);
             stage.show();
         }
